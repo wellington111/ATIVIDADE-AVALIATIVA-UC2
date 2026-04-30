@@ -10,7 +10,7 @@ function novoUsuario(nome, idade, cidade, hobbies){
 } 
 
 // ATIVIDADE 2
-//precisa receber um array e devolver uma string
+
 function formatarHobbies(hobbies){
     return hobbies.join(", ");
 }
@@ -44,10 +44,10 @@ let user2 = novoUsuario("Maria", 25, "Porto Alegre", ['leitura', 'viagem', 'culi
 console.log(user2)
 
 let chamar = adicionarUsuario(usuarios, user1)
-console.log(chamar)
+console.log(user1)
 
 let chamar2 = adicionarUsuario(usuarios, user2)
-console.log(chamar)
+console.log(user2)
 
 let relatorio = gerarRelatorio(usuarios)
 console.log(relatorio)
